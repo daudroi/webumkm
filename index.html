@@ -8,21 +8,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Costum CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <!-- AOS Animate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Icon -->
-    <link rel="icon" href="assets/img/logo.svg">
-    <title>Foodly - Landing Page</title>
+    <link rel="icon" href="assets/img/Nusantara Juice.png">
+    <title>Nusantara Fruit & Juice</title>
 </head>
 <body>
     <!-- Navbar Section Open -->
     <nav class="navbar navbar-expand-lg sticky-top bg-white">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.svg" class="me-3" alt="brand">
-                <span class="text-dark">Foodly</span>
+                <img src="assets/img/Nusantara Juice.png" class="me-3" alt="brand" width="55" height="55">
+                <span class="text-dark">Nusantara Fruit & Juice</span>
             </a>
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -35,16 +37,19 @@
                         <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">About</a>
+                        <a class="nav-link active" aria-current="page" href="index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">Promo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#menu">Menu</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="index.html#newslatter">Newslatter</a>
-                    </li>
+                    </li> -->
                 </ul>
-                <a href="" class="btn btn-primary shadow-none">Contact</a>
+                <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-primary shadow-none">Contact</a>
             </div>
         </div>
     </nav>
@@ -56,26 +61,28 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="home-content" data-aos="fade-up" data-aos-duration="1000">
-                        <p class="badge fs-6 fw-normal bg-primary-light text-primary"> You have to try it 😋</p>
+                        <p class="badge fs-6 fw-normal bg-primary-light text-primary"> Kamu harus mencobanya 😋</p>
                         <h1 class="text-home-bold fw-bold text-dark mt-1">
-                            For you, we serve the best food & <span class="text-primary">delicious</span>
+                            Untuk Anda, kami sajikan minuman terbaik & <span class="text-primary">nikmat</span>
                         </h1>
                         <h4 class="text-home-reguler fw-normal text-secondary">
-                            We found a concept that fits and deserves to be served in a restaurant so that people can
-                            feel it!
+                            Kami percaya bahwa setiap tetesnya membawa kesegaran alami yang memanjakan tenggorokan anda.
+                        </h4>
+                        <h4 class="text-home-reguler fw-normal text-secondary jam">
+                            Jam Buka : 8 am - 8 pm
                         </h4>
                         <div class="home-btn mt-5">
-                            <a href="#" class="btn btn-primary shadow-none">Order now</a>
-                            <a href="#" class="btn btn-video-play">
-                                <i class='bx bx-play'></i>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-primary shadow-none">Order sekarang</a>
+                            <a href="https://maps.app.goo.gl/fnH1fMPwrewpGrRU6" class="btn btn-map-play" target="_blank">
+                                <i class='bx bx-map'></i>
                             </a>
-                            <span class="video-play text-dark">See video</span>
+                            <span class="map-play text-dark">Lihat map</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="home-img" data-aos="fade-up" data-aos-duration="2000">
-                        <img src="assets/img/home-img.svg" class="w-100" alt="">
+                        <img src="assets/img/jusatas.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -84,36 +91,60 @@
     <!-- Home Section Close -->
 
     <!-- Services Section Open -->
-    <section class="services text-center">
+    <section class="services text-center" id="services">
         <div class="container">
             <span class="text-primary">Services</span>
-            <h2 class="fw-bold text-dark mt-3">Our best services</h2>
+            <h2 class="fw-bold text-dark mt-3">Layanan terbaik kami</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6 content mt-5" data-aos="fade-up" data-aos-duration="1000">
                     <img src="assets/img/services-1.svg" alt="">
-                    <h5 class="services-title text-dark mt-4">Fastest delivery</h5>
-                    <p class="text-secondary mt-3">We can deliver delicious ready-to-eat meals quickly to your
-                        doorstep.
+                    <h5 class="services-title text-dark mt-4">Pelayanan cepat</h5>
+                    <p class="text-secondary mt-3">Kami menyediakan makanan siap saji yang lezat dengan pelayanan cepat.
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-6 content mt-5" data-aos="fade-up" data-aos-duration="2000">
                     <img src="assets/img/services-2.svg" alt="">
-                    <h5 class="services-title text-dark mt-4">Affordable prices</h5>
-                    <p class="text-secondary mt-3">Every food we provide has an affordable price and according to
-                        taste.
+                    <h5 class="services-title text-dark mt-4">Harga yang murah</h5>
+                    <p class="text-secondary mt-3">Setiap makanan yang kami sediakan memiliki harga terjangkau sesuai dengan selera.
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-6 content mt-5" data-aos="fade-up" data-aos-duration="3000">
                     <img src="assets/img/services-3.svg" alt="">
-                    <h5 class="services-title text-dark mt-4">Delicious & hygienic</h5>
-                    <p class="text-secondary mt-3">In every food, we serve it with the best recipe so that it tastes
-                        good.</p>
+                    <h5 class="services-title text-dark mt-4">Enak & Higienis</h5>
+                    <p class="text-secondary mt-3">Di setiap hidangan, kami menyajikannya dengan resep terbaik sehingga rasanya enak.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Services Section Close -->
-
+     
+    <!-- Promo Section Open -->
+    <!-- <section class="promo text-center" id="promo">
+        <div class="container">
+            <span class="text-primary">Promo</span>
+            <h2 class="fw-bold text-dark mt-3">Layanan terbaik kami</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 content mt-5" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="assets/img/services-1.svg" alt="">
+                    <h5 class="services-title text-dark mt-4">Pelayanan cepat</h5>
+                    <p class="text-secondary mt-3">Kami menyediakan makanan siap saji yang lezat dengan pelayanan cepat.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 content mt-5" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="assets/img/services-2.svg" alt="">
+                    <h5 class="services-title text-dark mt-4">Harga yang murah</h5>
+                    <p class="text-secondary mt-3">Setiap makanan yang kami sediakan memiliki harga terjangkau sesuai dengan selera.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 content mt-5" data-aos="fade-up" data-aos-duration="3000">
+                    <img src="assets/img/services-3.svg" alt="">
+                    <h5 class="services-title text-dark mt-4">Enak & Higienis</h5>
+                    <p class="text-secondary mt-3">Di setiap hidangan, kami menyajikannya dengan resep terbaik sehingga rasanya enak.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+     <!-- Promo Section Close -->
     <!-- About Section Open -->
     <section class="about" id="about">
         <div class="container">
@@ -122,21 +153,21 @@
                     <div class="row">
                         <div class="col-md-11">
                             <div class="gallery-img mt-3" data-aos="fade-up" data-aos-duration="1000">
-                                <img src="assets/img/about-img.svg" class="w-100" alt="">
+                                <img src="assets/img/promo.png" class="w-100" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content" data-aos="fade-up" data-aos-duration="2000">
-                        <span class="text-primary">About</span>
-                        <h2 class="fw-bold text-dark mt-3">Food gallery on our menu</h2>
-                        <p class="text-secondary mt-3">
-                            Our food gallery contains a collection of pictures that we take
-                            when customers order food, we have a large selection of delicious food and drinks with
-                            various variants and affordable prices, you can see them here.
+                        <span class="text-primary">Promo</span>
+                        <h2 class="fw-bold text-dark mt-3">Promo Jumat Spesial Serba 5K!!</h2>
+                        <p class="text-secondary mt-3 promo-text">
+                            Setiap hari Jumat, nikmati promo spesial dari Nusantara Fruit & Juice! Semua menu pilihan hanya dengan harga 5K. 
+                            Jangan lewatkan kesempatan untuk menikmati jus segar dan makanan lezat dengan harga terjangkau. 
+                            Hanya di hari Jumat!
                         </p>
-                        <a href="#" class="btn btn-primary shadow-none mt-5">Load more</a>
+                        <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-primary shadow-none mt-5">Order Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -151,35 +182,123 @@
             <h2 class="fw-bold text-dark mt-3">Menu of the week</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/salad.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Salad</h5>
+                            <h4 class="text-primary fw-bold mt-4">$35.99</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
                     <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="1000">
                         <div class="item">
-                            <img src="assets/img/menu-1.svg" alt="">
-                            <h5 class="menu-title text-dark mt-3">Pancake fluffy</h5>
-                            <p class="text-secondary mt-2">With caramel and extra honey</p>
-                            <h4 class="text-primary fw-bold mt-4">$20.00</h4>
-                            <a href="#" class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                            <img src="assets/img/jus belimbing.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Belimbing</h5>
+                           
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="2000">
                         <div class="item">
-                            <img src="assets/img/menu-2.svg" alt="">
-                            <h5 class="menu-title text-dark mt-3">Veggie fried rice</h5>
-                            <p class="text-secondary mt-2">With celery and half-boiled eggs</p>
-                            <h4 class="text-primary fw-bold mt-4">$18.50</h4>
-                            <a href="#" class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                            <img src="assets/img/jus jeruk.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">jus Jeruk</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
                         <div class="item">
-                            <img src="assets/img/menu-3.svg" alt="">
-                            <h5 class="menu-title text-dark mt-3">Meat egg rice</h5>
-                            <p class="text-secondary mt-2">With different meat variations</p>
-                            <h4 class="text-primary fw-bold mt-4">$35.99</h4>
-                            <a href="#" class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                            <img src="assets/img/jus pisang.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Pisang</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/jus wortel.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Wortel</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/jus stroberi.png" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Stroberi</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/jus tomat.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Tomat</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/jus kiwi.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Kiwi</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/jus pir.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Jus Pir</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp7.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/ice tea.png" alt="">
+                            <h5 class="menu-title text-dark mt-3">Original Tea</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp3.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/milk tea.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Milk Tea</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp5.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-menu bg-white mt-3" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="item">
+                            <img src="assets/img/lemon-tea.jpg" alt="">
+                            <h5 class="menu-title text-dark mt-3">Lemon Tea</h5>
+                            <h4 class="text-primary fw-bold mt-4">Rp5.000,00</h4>
+                            <a href="https://wa.me/6282171200941?text=Halo,%20saya%20ingin%20memesan." class="btn btn-cart shadow-none text-white bg-primary"><i class='bx bx-cart fs-5'></i></a>
                         </div>
                     </div>
                 </div>
@@ -189,7 +308,7 @@
     <!-- Menu Section Close -->
 
     <!-- Testimonials Section Open -->
-    <section class="testimonials text-center">
+    <!-- <section class="testimonials text-center">
         <div class="container">
             <span class="text-primary">Testimonials</span>
             <h2 class="fw-bold text-dark mt-3">What our customers say?</h2>
@@ -234,12 +353,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Testimonials Section Close -->
 
 
     <!-- Gallery Section Open -->
-    <section class="gallery" id="gallery">
+    <!-- <section class="gallery" id="gallery">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
@@ -265,12 +384,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Gallery Section Close -->
 
 
     <!-- Newslatter Section Open -->
-    <section class="newslatter" id="newslatter">
+    <!-- <section class="newslatter" id="newslatter">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -285,7 +404,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Newslatter Section Close -->
 
     <!-- Footer Section Open -->
@@ -295,10 +414,9 @@
                 <div class="col-md-5">
                     <div class="col-md-10">
                         <a href="#" class="footer-brand">
-                            <img src="assets/img/logo.svg" class="me-3" alt="brand">
-                            <span class="text-dark">Foodly</span>
-                            <p class="text-secondary mt-3">Foodly is a restaurant that has been around since 1988 in
-                                South Jakarta. We serve the best quality food for you.</p>
+                            <img src="assets/img/Nusantara Juice.png" class="me-3" alt="brand" width="55" height="55">
+                            <span class="text-dark">Nusantara Fruit & Juice</span>
+                            <p class="text-secondary mt-3">Nusantara Fruit & Juice adalah sebuah usaha UMKM yang hadir di Malang untuk memberikan pengalaman terbaik melalui jus segar berkualitas. Kami selalu berkomitmen menghadirkan produk terbaik untuk Anda.</p>
                         </a>
                     </div>
                 </div>
@@ -306,21 +424,11 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="footer-content">
-                                <span>Services</span>
-                                <ul class="footer-link mt-3 list-unstyled">
-                                    <li><a href="#" class="py-1 d-block">Delivery</a></li>
-                                    <li><a href="#" class="py-1 d-block">Pricing</a></li>
-                                    <li><a href="#" class="py-1 d-block">Fast food</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="footer-content">
                                 <span>Info</span>
                                 <ul class="footer-link mt-3 list-unstyled">
-                                    <li><a href="#" class="py-1 d-block">Promo date</a></li>
-                                    <li><a href="#" class="py-1 d-block">Event</a></li>
-                                    <li><a href="#" class="py-1 d-block">Careers</a></li>
+                                    <li><a href="index.html#services" class="py-1 d-block">Services</a></li>
+                                    <li><a href="index.html#about" class="py-1 d-block">Promo</a></li>
+                                    <li><a href="index.html#menu" class="py-1 d-block">Menu</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -328,9 +436,18 @@
                             <div class="footer-content">
                                 <span>Contact</span>
                                 <ul class="footer-link mt-3 list-unstyled">
-                                    <li><a href="#" class="py-1 d-block">South Jakarta - Indonesia</a></li>
-                                    <li><a href="#" class="py-1 d-block">+0628-2267-9981</a></li>
-                                    <li><a href="#" class="py-1 d-block">contact@foodly.co.id</a></li>
+                                    <li><a href="#" class="py-1 d-block">Malang - Indonesia</a></li>
+                                    <li><a href="#" class="py-1 d-block">+62 821-7120-0941</a></li>
+                                    <li><a href="https://www.instagram.com/nusantara_fruitandjuice" class="py-1 d-block">nusantara_fruitandjuice</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer-content">
+                                <span>Alamat</span>
+                                <ul class="footer-link mt-3 list-unstyled">
+                                    <li><a href="https://maps.app.goo.gl/fnH1fMPwrewpGrRU6" class="py-1 d-block">Jl. Kembang Turi No.18, Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</a></li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -339,8 +456,8 @@
             </div>
             <div class="row mt-5">
                 <p class="copyright text-secondary text-center">
-                    Copyright &copy; 2022 All rights reserved | By
-                    <a class="text-primary" href="https://ilmaelfiraa.github.io">Elfira Nurul Ilma</a>
+                    Copyright &copy; 2024 All rights reserved | By
+                    <a class="text-primary" href="https://ilmaelfiraa.github.io">Nusantara Fruit & Juice</a>
                 </p>
             </div>
         </div>

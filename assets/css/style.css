@@ -3,7 +3,7 @@
 /* Variables CSS */
 :root {
   /* Colors */
-  --primary-color: #BA2530;
+  --primary-color: #F48E28;
   --primary-light-color: #FFD6D7;
   --yellow-color: #FEC65E;
   --white-color: #FFFFFF;
@@ -82,7 +82,7 @@ a:hover {
   background-color: var(--primary-light-color);
 }
 
-.btn-video-play {
+.btn-map-play {
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
   border-radius: 50%;
   margin-left: 30px;
@@ -91,11 +91,11 @@ a:hover {
   padding: 0;
   font-size: 30px;
 }
-.btn-video-play i {
+.btn-map-play i {
   line-height: 3rem;
   color: var(--yellow-color);
 }
-.btn-video-play:hover i {
+.btn-map-play:hover i {
   color: var(--primary-color);
 }
 
@@ -139,6 +139,7 @@ a:hover {
   box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.04);
 }
 
+
 /* Home */
 section.home {
   padding-top: 7rem;
@@ -154,6 +155,9 @@ section.home .text-home-reguler {
 section.home .home-btn .video-play {
   font-weight: var(--font-medium);
   padding: 1rem;
+}
+h4.jam{
+  color: var(--primary-color);
 }
 
 /* Services */
@@ -186,6 +190,12 @@ section.menu .card-menu .item img {
 }
 section.menu .card-menu .item .menu-title {
   font-weight: var(--font-semibold);
+}
+section.menu img {
+  width: 300px; /* Atur lebar gambar */
+  height: 300px; /* Atur tinggi gambar */
+  object-fit: cover; /* Memastikan gambar tetap proporsional */
+  border-radius: 15px;
 }
 
 /* Testimonials */
@@ -266,6 +276,13 @@ footer.footer-section .copyright {
   font-size: var(--smaller-font-size);
   padding: 1rem;
 }
+.promo-text {
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
 
 @media (min-width: 1399.38px) {
   .container {
