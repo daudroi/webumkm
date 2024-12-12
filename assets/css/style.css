@@ -138,6 +138,14 @@ a:hover {
 .drop-shadow {
   box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.04);
 }
+.img-small {
+  max-width: 500px; 
+  max-height: 550px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px; 
+  overflow: hidden; 
+}
 
 
 /* Home */
@@ -168,8 +176,8 @@ section.services .content .services-title {
   font-weight: var(--font-semibold);
 }
 
-/* About */
-section.about {
+/* promo */
+section.promo {
   padding-top: 7rem;
 }
 
@@ -221,7 +229,7 @@ section.testimonials .carousel-indicators button {
 }
 
 /* Newslatter */
-section.gallery {
+section.special {
   padding-top: 8rem;
 }
 
@@ -312,10 +320,10 @@ footer.footer-section .copyright {
   section.services p {
     margin-bottom: 0 !important;
   }
-  section.about {
+  section.promo {
     padding-top: 5rem;
   }
-  section.about .about-content {
+  section.promo .promo-content {
     margin-top: 30px;
   }
   section.menu,
@@ -337,10 +345,10 @@ section.testimonials {
   section.newslatter .w-50 {
     width: 100% !important;
   }
-  section.gallery {
+  section.special {
     padding-top: 6rem;
   }
-  section.gallery .gallery-img {
+  section.special .special-img {
     margin-top: 30px;
   }
   footer.footer-section {
